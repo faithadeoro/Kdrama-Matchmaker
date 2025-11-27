@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "bun run src/main.tsx",
     "dev": "vite",
     "build": "vite build",
     "lint": "npm run lint:js && npm run lint:css && npm run check:css-vars && npm run check:css-classes",
